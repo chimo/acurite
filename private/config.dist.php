@@ -1,0 +1,6 @@
+<?php
+
+$config = [
+    'secret' => 'xxx'
+];
+
