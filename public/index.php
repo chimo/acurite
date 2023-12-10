@@ -44,6 +44,6 @@ function get() {
     $data = file_get_contents('/var/lib/acurite/data.json');
 
     header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($data);
+    echo $data;
 }
 
